@@ -1,0 +1,167 @@
+#scissors {
+	position: absolute;
+	z-index: 1;
+	left: 600px;
+	top: 0px;
+}
+
+#tape {
+	position: absolute;
+	z-index: 1;
+	left: 700px;
+	top: 50px;
+}
+
+#candles {
+	position: absolute;
+	z-index: 1;
+	left: 650px;
+	top: 300px;
+}
+
+#lighter {
+	position: absolute;
+	z-index: 1;
+	left: 750px;
+	top: 400px;
+}
+
+#rubberball {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#gluestick {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#key {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#twine {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#screwdriver {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#crane {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#buttons {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#paperclip {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+
+div.drawer {
+	width: 510px;
+	float: left;
+}
+
+div.contents {
+	width: 300px;
+	float: left;
+}
+
+
+.total-due {
+	padding-left: 200px;
+}
+
+.alerts {
+	padding-left: 200px;
+}
+
+.to-do-list h3 {
+	font-variant: small-caps;
+	font-size: 24px;
+	padding: 10px 10px;
+	margin: 10px;
+}
+
+.late {
+	color: red;
+}
+
+.submit {
+	height: 40px;
+	width: 200px;
+	font-size: 16px;
+}
+
+div.container {
+	overflow: auto;
+	width: 100%;
+}
+
+hr {
+	width: 80%;
+}
+
+#input {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#input div {
+
+}
+
+#input div p {
+	margin: 0;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.guide {
+	width: 900px;
+	padding-top: 30px;
+	padding-left: 30px;
+	cell-spacing: 50px;
+}

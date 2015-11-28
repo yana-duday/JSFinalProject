@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel ="stylesheet" type="text/css" href="style.css">
+<script src="tips.js" type="text/javascript"></script>
+<script src="random.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+<title></title>
+</head>
+
+<body>
+<h1>Get Organized!</h1>
+<Br><br>
+<ul class="tabMenu">
+         <li class="active"><a href="index.html">Home</a>
+         </li>
+         <li><a href="to-do-generator.html">To-Do List Generator</a>
+         </li>
+         <li><a href="bill-tracker.html">Bill Tracker</a>
+         </li>
+         <li><a href="address-book.html">Address Book Generator</a>
+         </li>
+         <li><a href="junk-drawer-launch.html">Practice!</a>
+      </ul>
+<div class="main">
+<h2>Welcome!</h2>
+<center><p>Here we have a  collection of tools to help you get organized.<br>Click the tabs at the top to access each of them.</p></center>
+<div class = "organization-tip">
+<script type="text/javascript">
+      var tipNum = randInt(1, 5);
+      document.write("<h3>Random Organization Tip<br></h3>");
+      document.write("<p>" + tipText(tipNum) + "</p>");
+      </script>
+</div>
+</div>
+</body>
+</html>
